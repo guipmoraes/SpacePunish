@@ -1,0 +1,8 @@
+name: SpacePunish
+author: SpacePlugins
+version: 1.0
+main: me.spaceplugins.spacepunish.Main
+commands:
+   punir:
+   despunir:
+   

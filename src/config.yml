@@ -1,0 +1,10 @@
+host: 'localhost'
+user: 'indra'
+port: 3306
+password: 'Cemd12312'
+database: 'spacepunish'
+licenseKey: 'suaLicença'
+
+messages:
+  banido_servidor: "§b§lSyant§c§lPunish §fO jogador %BANIDO% §ffoi banido por §e%MOTIVO%"
+  banido_mensagem: "§b§lSyant §c§lPunish\n\n§cVocê foi banido permanentemente do servidor.\n\n§eMotivo: §f%MOTIVO%\n\n§eStaff: §f%STAFF%\n\n\n§7(Para recorrer ao unban, visite https://guipmoraes.com/unban)"
