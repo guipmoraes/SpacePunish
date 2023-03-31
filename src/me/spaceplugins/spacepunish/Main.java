@@ -19,11 +19,9 @@ import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
 
 
-import me.spaceplugins.com.br.api.AutoUpdate;
 import me.spaceplugins.com.br.comandos.despunir;
 import me.spaceplugins.com.br.comandos.punir;
 import me.spaceplugins.com.br.eventos.onJoin;
-import me.spaceplugins.com.br.hookplugin.HookPlugin;
 
 public class Main extends JavaPlugin {
 

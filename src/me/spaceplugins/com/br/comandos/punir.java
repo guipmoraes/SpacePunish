@@ -76,9 +76,9 @@ public class punir implements CommandExecutor {
 			        s = s.replaceAll("\\\\n", "\n");
 					Punish.punishPlayer(args[0], sender.getName(), s);
 					if(Bukkit.getOfflinePlayer(args[0]).isOnline()) {
-						Bukkit.getPlayer(args[0]).kickPlayer(Main.getInstance().getConfig().getString("messages.banido_mensagem").replace("%BANIDO%", args[0]).replace("%MOTIVO%", s).replace("%STAFF%", sender.getName()));
+						Bukkit.getPlayer(args[0]).kickPlayer(Main.getInstance().getConfig().getString("messages.banido_mensagem").replace("%BANIDO%", args[0]).replace("%MOTIVO%", s).replace("%STAFF%", sender.getName()).replace("&", "§"));
 					}
-					Bukkit.broadcastMessage(Main.getInstance().getConfig().getString("messages.banido_servidor").replace("%BANIDO%", args[0]).replace("%MOTIVO%", s).replace("%STAFF%", sender.getName()));
+					Bukkit.broadcastMessage(Main.getInstance().getConfig().getString("messages.banido_servidor").replace("%BANIDO%", args[0]).replace("%MOTIVO%", s).replace("%STAFF%", sender.getName()).replace("&", "§"));
 				}
 				
 			} else {

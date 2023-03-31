@@ -6,7 +6,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="lib" path="C:/Users/Guilherme/Documents/Spigot/plugins/spacecore (1).jar"/>
 	<classpathentry kind="lib" path="C:/Users/Guilherme/Documents/Spigot/spigot.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
