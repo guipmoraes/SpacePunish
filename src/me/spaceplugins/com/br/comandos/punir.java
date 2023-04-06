@@ -82,7 +82,7 @@ public class punir implements CommandExecutor {
 				}
 				
 			} else {
-				sender.sendMessage("§c§lERRO §fEste jogador já está banito");
+				sender.sendMessage("§c§lERRO §fEste jogador já está banido");
 			}
 		}
 		return false;
